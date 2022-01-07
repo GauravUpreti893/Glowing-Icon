@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dcdcdc;
+}
+header{
+    height:25rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    align-items:center;
+    background-color: black;
+    z-index:-3;
+}
+.logo{
+    color:white;
+    font-size:8rem;
+    text-shadow: 0px 0px 50px #0f0,
+                 0px 0px 100px #0f0,
+                 0px 0px 150px #0f0,
+                 0px 0px 200px #0f0,
+                 0px 0px 250px #0f0,
+                 0px 0px 300px #0f0;
+    animation: my 5s linear infinite;
+}
+@keyframes my{
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////*/
+
+#main{
+    margin:0rem 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    background-color: white;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    overflow: scroll;
+    height:40rem;
+}
+#main h1{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    font-size: 35px;
+   
+}
+#main p{
+    margin:1.5rem;
+    letter-spacing: 0.07rem;
+    word-spacing: 0.2rem;
+    line-height: 1.3rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    color: #0f0;
+    background-color: black;
+    padding:10px 30px;
+    margin-bottom:3rem;
+    margin-left:1.5rem;
+    font-size: 17.5px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.815);
+}
+#btn:active{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#btn1{
+    color: #0f0;
+    background-color: black;
+    padding:10px 30px;
+    margin-bottom:3rem;
+    margin-left:1.5rem;
+    font-size: 17.5px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+#btn1:hover{
+    background-color: rgba(0, 0, 0, 0.815);
+}
+#btn1:active{
+    background-color: rgba(0, 0, 0, 0.7);
+}
